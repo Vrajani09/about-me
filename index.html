@@ -8,7 +8,9 @@
   <style>
     
     body {
-      background: black;
+      background: url("background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
       height: 100%;
       width: 100%;
       font-family: "Host Grotesk", sans-serif; /* Nav text */
@@ -39,8 +41,8 @@
       padding: 20px;
       font-size: 105px;
       font-family: "Zen Dots", sans-serif;
-      z-index: 1000;
-  
+      
+      
     }
     
     li {
@@ -53,7 +55,6 @@
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      border-radius: 8px;
     }
     
     li a:hover:not(.active) {
@@ -76,81 +77,41 @@
     
     .main-text {
       display: flex;
-      align-items: flex-start;
-      margin-top: 50px;
+      align-items: center;
+      margin-top: 49px;
       margin-left: 255px;
       margin-right: 80px;
-     
     }
     
-    
-    .image-wrapper {
-      position: relative;
+    .main-text img {
       height: 710px;
       width: 550px;
+      margin-right: 25px
     }
     
-    .image-wrapper img.main {
-      position: relative;
-     height: 710px;
-      width: 550px;
-      border-radius: 8px;
-      border: 1px solid white;
-      z-index: 1;
-      
-    }
-    
-    .star {
-      position: absolute;
-      height: 200px;
-      width: 200px;
-      z-index: 0;
-    }
-    
-    .star.top-left {
-      top: -50px;
-      left: -70px;
-    }
-    
-    .star.bottom-right {
-      bottom: -50px;
-      right: -70px;
-    }
-    
-    .content-text {
+    .main-text .content {
       max-width: 490px;
-      font-size: 19px;
-      color: Aliceblue;
-      margin-left: 25px;
-      margin-top: 190px;
+      font-size: 18px;
+      color: AliceBlue;
     }
     
-
   </style>   
   </head>
   
   <body>
-    
-     <ul>
-      <li><a href="https://vrajani09.github.io/Homepage-Mockup/" >Home</a></li>
-      <li><a href="https://vrajani09.github.io/about-me/" style="font-weight: bold">About Me</a></li>
-      <li><a href="https://vrajani09.github.io/Collection-page/"  >Collection</a></li>
-      <li><a href="https://vrajani09.github.io/Contact-us/">Contact Us</a></li>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about" style="font-weight: bold" >About Me</a></li>
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#contact us">Contact Us</a></li>
       <li class="logo"><img src="logo6.PNG" alt="logo" style="height:50px;"> </li>
     </ul>
-    
     <h1>
-    ABOUT ME 
+    ABOUT ME
       </h1>
-    
     <div class="main-text">
-      <div class="image-wrapper">
-        <img src="farrah.jpg" alt="Main Image" class="main">
-        <img src="star.jpg" alt="Star top left" class="star top-left">
-        <img src="star.jpg" alt="Star bottom right" class="star bottom-right">
-      </div> 
-      
-    <div class="content-text">
+      <img src="farrah.jpg" alt="owner">
+    <div class="content">
      <p>
        
       I've always had love for fashion but since I grew up in a family that isn't well-off, I couldn't exactly afford brand new stylish clothes so I resorted to thrifting. Overtime, 
