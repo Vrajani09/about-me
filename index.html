@@ -8,10 +8,6 @@
   <style>
     
     body {
-     /* background: url("background.jpg");*/
-     /*  background: url("Stars.jpg");*/
-      /* background-repeat: no-repeat;*/
-      /* background-size: cover;*/
       background: black;
       height: 100%;
       width: 100%;
@@ -84,39 +80,39 @@
       margin-top: 50px;
       margin-left: 255px;
       margin-right: 80px;
+     
     }
     
-    
-    .main-text .content {
-      max-width: 490px;
-      font-size: 19px;
-      color: AliceBlue;
-    }
     
     .image-wrapper {
       position: relative;
+      height: 710px;
+      width: 550px;
     }
     
     .image-wrapper img.main {
+      position: relative;
      height: 710px;
       width: 550px;
       border-radius: 8px;
+      z-index: 1;
+      
     }
     
     .star {
       position: absolute;
-      height: 30px;
-      width: 30px;
+      height: 150px;
+      width: 150px;
     }
     
     .star.top-left {
-      top: 0;
-      left: 0;
+      top: -50;
+      left: -50;
     }
     
     .star.bottom-right {
-      bottom: 0;
-      right: 0;
+      bottom: -50;
+      right: -50;
     }
     
     .content-text {
